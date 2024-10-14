@@ -41,8 +41,12 @@ declare module '$env/static/private' {
 	export const ORIGINAL_XDG_CURRENT_DESKTOP: string;
 	export const MallocNanoZone: string;
 	export const COLOR: string;
+	export const TF_SHELL: string;
 	export const npm_config_noproxy: string;
 	export const npm_config_local_prefix: string;
+	export const TF_ALIAS: string;
+	export const TF_SHELL_ALIASES: string;
+	export const PYTHONIOENCODING: string;
 	export const NVM_DIR: string;
 	export const USER: string;
 	export const COMMAND_MODE: string;
@@ -134,8 +138,12 @@ declare module '$env/dynamic/private' {
 		ORIGINAL_XDG_CURRENT_DESKTOP: string;
 		MallocNanoZone: string;
 		COLOR: string;
+		TF_SHELL: string;
 		npm_config_noproxy: string;
 		npm_config_local_prefix: string;
+		TF_ALIAS: string;
+		TF_SHELL_ALIASES: string;
+		PYTHONIOENCODING: string;
 		NVM_DIR: string;
 		USER: string;
 		COMMAND_MODE: string;

@@ -1,5 +1,5 @@
 <script>
-    let alt = 'my image'
+    let alt = 'my image';
 </script>
 
 <img src="/naresh.png" alt={alt} />

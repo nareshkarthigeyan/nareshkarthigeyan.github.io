@@ -1,6 +1,7 @@
 <script>
     import Name from "./Name.svelte";
   import Photo from "./Photo.svelte";
+  import Links from "./Links.svelte";
 </script>
 
 <div class="main">
@@ -9,7 +10,12 @@
     </div>
 </div>
 <div class="secondhalf">
-   <Photo />
+    <div>
+        <Photo />
+    </div>
+    <div class="lnks">
+        <Links />
+    </div>
 </div>
 
 <style>
@@ -24,5 +30,13 @@
 .secondhalf {
     padding-left: 20px;
     padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lnks {
+    padding-left: 15px;
+    margin-top: -30px;
+    margin-left: auto;
 }
 </style>
